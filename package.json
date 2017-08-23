@@ -1,0 +1,25 @@
+{
+  "name": "eclipse-templates",
+  "version": "1.0.0",
+  "description": "Common eclipse templates",
+  "main": "generate-readme.js",
+  "scripts": {
+    "generate-doc": "node generate-readme.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Singleton06/eclipse-templates.git"
+  },
+  "keywords": [
+    "eclipse",
+    "templates"
+  ],
+  "author": "Dustin Singleton",
+  "bugs": {
+    "url": "https://github.com/Singleton06/eclipse-templates/issues"
+  },
+  "homepage": "https://github.com/Singleton06/eclipse-templates#readme",
+  "devDependencies": {
+    "xml2js": "^0.4.19"
+  }
+}

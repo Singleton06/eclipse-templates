@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="java" deleted="false" description="Template used to specify prefabricated values for performing equals-verifier tests in situations where equals verifier could not dynamically implement one of the types.  'prefabClass' is an abbreviation for 'Prefabricated Class'." enabled="true" name="prefabClass">.withPrefabValues(${prefabClass}.class, new ${prefabClass}(${args1}), new ${prefabClass}(${args2}))&#13;
+${cursor}</template></templates>

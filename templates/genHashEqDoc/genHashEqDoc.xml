@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="java" deleted="false" description="Generates a non-javadoc comment (which should be placed before the hash code and equals methods) to indicate to future developers that the hash code and equals methods were generated to include all fields.  This is useful if additional fields were added and were not updated in the equals and hashcode, as it helps future developers identify that the new field was omitted by accident.  'genHashEqDoc' stands for 'Generate Hash Code and Equals Documentation'." enabled="true" name="genHashEqDoc">    /*&#13;
+     * Generated using eclipse built-in hash-code and equals generator with all fields.&#13;
+     */</template></templates>

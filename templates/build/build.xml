@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="java" deleted="false" description="Creates the build method for the current builder.  This assumes that the builder implementation is contained within the java type that it builds. " enabled="true" name="build">public ${primary_type_name} build()&#13;
+{&#13;
+	return new ${primary_type_name}(this);&#13;
+}</template></templates>

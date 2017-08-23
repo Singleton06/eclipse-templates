@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="java" deleted="false" description="Creates a test case for junit 4 which expects an IllegalArgumentException to be thrown.  This template uses underscore naming conventions for tests. iaeTest stands for 'Illegal Argument Exception Test'." enabled="true" name="iaeTest">    @Test(expected = IllegalArgumentException.class) ${:import(org.junit.Test)}&#13;
+    public void test${methodName}_${scenario}_throwsException()&#13;
+    {&#13;
+		${cursor}&#13;
+    }</template></templates>

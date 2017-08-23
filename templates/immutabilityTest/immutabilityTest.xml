@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="java" deleted="false" description="Creates a test which ensures a field of type List on an object is truly immutable (meaning that modifications will not alter original object).  This template assumes that a builder is used to construct the object and a builder instance already in test class state and has had the required values already provided.  This also ensures that the list provided to the builder cannot be modified and affect the resulting built object.  " enabled="true" name="immutabilityTest">    @Test  &#13;
+    public void test${testName}_immutabilityEnforced()  &#13;
+    {  &#13;
+        List&lt;String&gt; original${listName} = Arrays.asList(${item}, ${item}, ${item});  &#13;
+        List&lt;String&gt; listToBeModified = new ArrayList&lt;String&gt;(original${listName});  &#13;
+  &#13;
+        builder.${methodCall}(listToBeModified);  &#13;
+        listToBeModified.remove(0);  &#13;
+  &#13;
+        ${builderBuildType} ${builtObjectName} = builder.build();  &#13;
+        assertThat(${builtObjectName}.${getMethodCallName}(), is(original${listName}));  &#13;
+        assertThat(${builtObjectName}.${getMethodCallName}().size(), is(3));  &#13;
+         &#13;
+        ${builtObjectName}.${getMethodCallName}().remove(0);  &#13;
+        assertThat(${builtObjectName}.${getMethodCallName}(), is(originalNicknames));  &#13;
+        assertThat(${builtObjectName}.${getMethodCallName}().size(), is(3));  &#13;
+    }</template></templates>

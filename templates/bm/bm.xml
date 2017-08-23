@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="java-members" deleted="false" description="Creates the builder method implementation.  bm is an abbreviation for builder method." enabled="true" name="bm">public ${Builder} ${field_name}(${field_type} ${field_name})&#13;
+{&#13;
+	this.${field_name} = ${field_name};&#13;
+	return this;&#13;
+}&#13;
+&#13;
+${cursor}</template></templates>
