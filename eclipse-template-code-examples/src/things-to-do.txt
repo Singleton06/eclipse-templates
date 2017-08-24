@@ -1,0 +1,16 @@
+* add fields (pf) using first name, last name
+* Generate hash code and equals, add doc
+* add a builder to the person class (bm, build)
+* fail if null is specified for first name
+* validate not null if first name not specified.
+* add doc around the first name not being null (also add doc for something else to show ul, li)
+* add a special note (b)
+* show true, false
+
+
+* add iae test for first name being specified as null
+* add ise test for first name not being called
+* test equals verifier
+* add regular test with asserts (test, at)
+
+

@@ -18,6 +18,12 @@ public class Person
         this.firstName = firstName;
         this.lastName = lastName;
     }
+    
+    public Person(Name name) 
+    {
+    	this.firstName = name.getFirstName();
+    	this.lastName = name.getLastName();
+    }
 
     public String getFirstName()
     {
